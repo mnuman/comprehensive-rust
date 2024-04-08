@@ -12,7 +12,9 @@
 			"target": "/usr/local/cargo",
 			"type": "volume"
 		}
-	]
+	],
+	// https://github.com/microsoft/vscode-remote-release/issues/2485#issuecomment-1156342780
+	"runArgs": ["--name", "comprehensive-rust-devcontainer"]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
